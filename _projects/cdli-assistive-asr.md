@@ -4,11 +4,12 @@ collection: projects
 type: "projects"
 layout: single
 permalink: /projects/cdli-assistive-asr
-venue: "Digital Accessibility Lab, Carnegie Mellon University (CMU-Africa) & CDLI"
+venue: "CDLI Hackathon — Centre for Digital Language Inclusion"
+date: 2026-07-01
 location: "Kigali, Rwanda"
 ---
 
-At the **Digital Accessibility Lab at Carnegie Mellon University (CMU-Africa)**, in partnership with the **Centre for Digital Language Inclusion (CDLI)**, I lead the speech machine learning and edge deployment pipeline for **Speech Assist**—an end-to-end assistive communication platform engineered for individuals with speech and motor impairments in Rwanda.
+I am participating in a hackathon hosted by the **Centre for Digital Language Inclusion (CDLI)**, building **Speech Assist**—an end-to-end assistive communication platform engineered for individuals with speech and motor impairments in Rwanda.
 
 ### Real-World Problem & Context
 People living with speech impairments—including individuals with cerebral palsy, Parkinson's disease, multiple sclerosis, stroke-induced dysarthria, and stuttering—frequently face severe barriers when communicating with strangers, healthcare workers, teachers, and vendors. 

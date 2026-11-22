@@ -1,12 +1,12 @@
 ---
 permalink: /
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-# About Me
 
 I am a **Machine Learning Engineer & AI Systems Engineer** and Master's candidate at **Carnegie Mellon University (CMU-Africa)**, College of Engineering. Currently, I work as a Graduate AI Researcher at the **Digital Accessibility Lab at CMU-Africa**, where I build and deploy offline, on-device AI speech solutions for people with speech and motor disabilities in Rwanda.
 

@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 ## Professional Summary
-Machine Learning & AI Systems Engineer with a deep focus on **Production ML (MLOps)**, **Agentic AI Systems**, and **Distributed Streaming Architectures**. Experienced in engineering end-to-end ML lifecycles: from real-time data ingestion (Kafka) and reproducible pipelines (DVC, MLflow), to containerized microservice deployments (Docker, Compose), continuous testing (slice testing, Hypothesis, CI/CD), real-time observability (Prometheus, Grafana), and robust LLM agent architectures (MCP, tool-calling, RAG, Arize Phoenix tracing, and defensive security).
+Machine Learning & AI Systems Engineer with a deep focus on **Production ML (MLOps)** and **Agentic AI Systems**. Experienced in engineering end-to-end ML lifecycles: from real-time data ingestion (Kafka) and reproducible pipelines (DVC, MLflow), to containerized microservice deployments (Docker, Compose), continuous testing (slice testing, Hypothesis, CI/CD), real-time observability (Prometheus, Grafana), and robust LLM agent architectures (MCP, tool-calling, RAG, Arize Phoenix tracing, and defensive security).
 
 Education
 ======
@@ -33,7 +33,7 @@ Machine Learning & AI Engineering Experience
 ### Flagship Production Systems
 
 #### Offline On-Device ASR & Assistive Communication Platform for Impaired Speech
-*Digital Accessibility Lab, CMU-Africa & Centre for Digital Language Inclusion (CDLI)*
+*CDLI Hackathon — Centre for Digital Language Inclusion*
 * **What I Implemented**:
   * Designed, fine-tuned, and deployed fully offline, on-device Automatic Speech Recognition (ASR) pipelines for individuals with speech and motor impairments (dysarthria, dysphonia, cerebral palsy, Parkinson's disease, stroke, and stuttering) in Rwanda.
   * Fine-tuned bilingual ASR foundation models (Whisper-small, Whisper Large-v3, Omnilingual CTC-300M, and streaming Zipformer) on CDLI non-standard speech datasets (61.7 hours of impaired Kinyarwanda across 61 speakers, 44.4 hours of non-standard Rwandan English across 59 speakers), initializing from a combined 3,490+ hour base model (Common Voice + AfriVoice).
@@ -197,5 +197,3 @@ Service and Leadership
   * Led and facilitated recurring book discussions, intellectual roundtables, and campus reading initiatives.
   * Organized community events, literary meetups, and panel discussions fostering interdisciplinary dialogue and critical thinking across student cohorts.
   * Oversaw club operations, speaker sessions, event programming, and member engagement.
-* **Member & Contributor — CMU-Africa Research Club & Academic Initiatives**
-  * Participated in student-led research roundtables, peer paper reviews, and collaborative study groups in machine learning and systems.
