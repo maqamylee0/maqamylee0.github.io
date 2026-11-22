@@ -1,117 +1,71 @@
 ---
 permalink: /
-# title: "About Emmilly"
-# title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
-# excerpt: "Home page"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-<!-- Download [My CV](https://github.com/jt-zhang/picgozjt/raw/main/CV-Jintao_Zhang.pdf). -->
-<!-- [View My CV](https://github.com/jt-zhang/picgozjt/raw/main/CV-Jintao_Zhang.pdf){:target="_blank"} -->
-<!-- [View My CV](https://maqamylee0.github.io/files/CV-Emmilly_Namuganga.pdf) -->
 
-<!-- https://mozilla.github.io/pdf.js/web/viewer.html?file=https://github.com/jt-zhang/picgozjt/raw/main/docs/CV-Jintao-Zhang.pdf -->
+# About Me
 
+I am a **Machine Learning Engineer & AI Systems Engineer** and Master's candidate at **Carnegie Mellon University (CMU-Africa)**, College of Engineering. Currently, I work as a Graduate AI Researcher at the **Digital Accessibility Lab at CMU-Africa**, where I build and deploy offline, on-device AI speech solutions for people with speech and motor disabilities in Rwanda.
+
+My engineering and research focus centers on building and operating **resilient, observable production machine learning systems (MLOps)**, **autonomous agentic AI architectures**, and **high-throughput distributed streaming pipelines**. I am particularly interested in the intersection of intelligent systems, systems-level efficiency, and data infrastructure—bridging the gap between empirical ML algorithms and reliable, real-world deployment.
 
 ## Education
-**Masters**: August. 2024 - May. 2027, College of Engineering, CMU-Africa <span style="color: white;">........</span>Kigali, Rwanda
+* **M.S. in Information Technology / Artificial Intelligence**, Carnegie Mellon University (CMU-Africa)  
+  *August 2024 – May 2026* \| Kigali, Rwanda
+  * Core focus: Machine Learning in Production, Agentic AI Systems, Deep Learning, Software Architecture, Data Analytics.
+* **B.S. in Computer Science**, Makerere University  
+  *September 2019 – February 2023* \| Kampala, Uganda  
+  * Graduated top of class.
 
-**Bachelors**: Sep.  2019 - Feb. 2023, Dept. of CS, Makerere University,<span style="color: white;">........</span>Kampala, Uganda
+## What I Build & Research
 
-<!-- Master:<span style="color: white;">............</span>Sep. 2017 - Jul. 2024, Dept. of CS&T, Tsinghua University, Beijing, China
+* **Production ML & MLOps**: Operating end-to-end ML lifecycles with continuous streaming ingestion (Apache Kafka), reproducible data/model pipelines (DVC, MLflow), containerized microservices (Docker Compose), property-based testing (Hypothesis), slice validation, and real-time observability dashboards (Prometheus, Grafana).
+* **Agentic AI & LLM Systems**: Architecting tool-calling AI agents with the Model Context Protocol (MCP), designing robust multi-source Retrieval-Augmented Generation (RAG) engines, building agent harnesses with browser tooling (Playwright), and instrumenting distributed trace observability and evaluation (Arize Phoenix, LLM-as-a-Judge).
+* **AI Safety, Security & Explainability**: Hardening AI agents against prompt injection and tool poisoning, conducting STPA-based systemic hazard analyses, and auditing complex models using Explainable AI (SHAP, Alibi Explain).
+* **Learned Systems & Data Infrastructure**: Designing longitudinal benchmarking frameworks and concurrent C++ testbeds for learned index structures and accelerated inference.
 
-Ph.D.:<span style="color: white;">..............</span>Sep. 2024 - Now,<span style="color: white;">.......</span>Dept. of CS&T, Tsinghua University, Beijing, China -->
+## Research & Professional Experience
+* **July 2025 – Present: Graduate AI Research Assistant — Digital Accessibility Lab, CMU-Africa**
+  * Developing offline, on-device automatic speech recognition (ASR) pipelines and assistive communication tools for individuals with speech and motor impairments in Rwanda (Centre for Digital Language Inclusion - CDLI).
+  * Fine-tuning bilingual ASR foundation models (Whisper-small, Whisper Large-v3, Omnilingual CTC-300M, Zipformer) on non-standard speech in Kinyarwanda and English, achieving state-of-the-art 0.374 WER on impaired Kinyarwanda speech.
+  * Quantizing models to 4-bit precision via `whisper.cpp` / GGML (145 MB) and integrating them into a cross-platform Flutter application for low-cost Android phones operating without internet connectivity.
+  * **Skills**: PyTorch, Whisper, whisper.cpp, GGML, Sherpa-ONNX, Flutter, Dart, Assistive AI, model quantization, edge ML.
 
-<!-- ## Supervisor
-Supervisors of Ph.D. program:<span style="color: white;">.</span>Prof. [Jianfei Chen](https://ml.cs.tsinghua.edu.cn/~jianfei/index.html) (陈键飞) and Prof. [Jun Zhu](https://ml.cs.tsinghua.edu.cn/~jun/index.shtml) (朱军)
+* **Summer 2025: Research Intern — Max Planck Institute for Software Systems (MPI-SWS), Germany**
+  * Built a longitudinal benchmarking framework for learned index structures to systematically evaluate operational stability (insertions, deletions, queries) under multi-threaded real-world workloads.
+  * Developed concurrent C++ harnesses to uncover synchronization bottlenecks and memory overheads in ML-augmented data systems.
+  * **Skills**: C++, Python, concurrent programming, learned data structures, experimental design, performance profiling.
 
-Supervisor of Master program: Prof. [Guoliang Li](https://dbgroup.cs.tsinghua.edu.cn/ligl/publications.html) (李国良) -->
+* **Summer 2024: Research Intern — Max Planck Institute for Software Systems (MPI-SWS), Germany**
+  * Reproduced and empirically validated key experiments from published learned systems research, investigating indexing efficiency tradeoffs.
+  * Formulated empirical hypotheses, synthesized literature, and executed comparative experiments across system benchmarks.
+  * **Skills**: C++, Python, benchmarking frameworks, empirical research validation.
 
+* **Summer 2023: Openlab Summer Intern — CERN, Geneva, Switzerland**
+  * Conducted an extensive accessibility audit and usability evaluation on CERN’s Single Sign-On (SSO) authentication system used by thousands of researchers worldwide.
+  * Implemented targeted front-end and backend fixes to eliminate accessibility barriers, ensuring strict WCAG compliance.
+  * **Skills**: Python, React, Spring, GitLab, human-centered design, assistive technologies, accessibility testing.
 
+## Recent Publications & Preprints
+* **How Widespread Is Accent-Language Confusion in MMS-LID? A Broad Sweep Across African Accents in AfriSpeech-200**  
+  **Emmilly Immaculate Namuganga**, Mike Mwanje.  
+  *AfriLang AI Conference 2026*, Dec. 2026. [[Details](/publication/2026-12-10-afrilang-mms-lid)]
+* **Synchronized Rebuilds: The Hidden Cost of Concurrent Inserts in Learned Indexes ("Waves of Misery")**  
+  **Emmilly Immaculate Namuganga**, Laurent Bindschaedler.  
+  *arXiv:2610.33770*, Oct. 2026. [[arXiv](https://arxiv.org/abs/2610.33770)] [[PDF](https://arxiv.org/pdf/2610.33770)]
+* **Comparing Multilingual ASR Models for Low-Resource African Languages: What Works, and When**  
+  **Emmilly Immaculate Namuganga**, Ramsey Ithacius Njema, Mike Mwanje, Victor Tolulope Olufemi.  
+  *Women in Machine Learning (WiML) Workshop at NeurIPS 2026 (Poster Presentation)*, Dec. 2026. [[OpenReview](https://openreview.net/forum?id=iZx24ySsjJ)]
+* **WaxalNet: Benchmarking and Adapting Speech Recognition for Spontaneous Speech in 19 African Languages**  
+  Victor Tolulope Olufemi, Oreoluwa Babatunde, ..., **Emmilly Namuganga**, ..., Prasenjit Mitra.  
+  *arXiv:2606.02375*, Jun. 2026. [[arXiv](https://arxiv.org/abs/2606.02375)]
 
-<!-- ## Biography
-- Sep 2017 - Jun 2021 : Receive my B.Sc. degree from Xidian University;
-- Sep 2021 -   Now    : Admitted to study for a M.Sc. degree in Tsinghua University without entrance examination following professor Guoliang Li. -->
-
-## Research Interest
-My focus lies in leveraging machine learning to optimize processes, improve system efficiency, and solve complex real-world problems. With a strong foundation in computer science and advanced AI techniques, I enjoy exploring how intelligent systems can transform industries from data systems and optimization tasks to healthcare and scientific computing.
-<!-- Currently, my research interests are centered around **Efficient ML**, specifically, accelerating the training and inference of LLMs (Large Language Models) and VLMs (Vision-Language Models). -->
-<!-- - AI4DB: Database for Artificial Intelligence. -->
-<!-- - DB4AI: Artificial intelligence for Database. -->
-
-## Internships
-* Summer 2025: Research Intern - **Max Planck Institute for Software Systems, Germany**
-  * During the following summer, I extended my previous research by building a longitudinal benchmark for learned index structures. This benchmark allowed for systematic evaluation over time, revealing substantial weaknesses in fundamental operations of these indexes, including insertion, deletion, and query performance under varied workloads.
-  * The project strengthened my ability to translate theoretical insights into empirical evaluation and contributed to a deeper understanding of the practical challenges in applying machine learning to data systems.
-    * **Skills and technologies used**: C++, Python, data analysis, academic literature review, experimental design, and benchmarking frameworks.
-  <!-- * Supervisor: Laurent BindSchaedler -->
-
-* Summer 2024: Research Intern - **Max Planck Institute for Software Systems, Germany**
-  * During this internship, I gained hands-on experience in the entire research process, from understanding existing work to experimental validation.
-  * I mainly worked on reproducing key experiments from prior work to validate findings.
-  * Reading and synthesizing research papers in the field of learned systems.
-  * Formulating research questions and testing them through rigorous experimentation.
-    * **Skills and technologies used**: Python, data analysis, C++, Github, academic literature review, experimental design, and benchmarking frameworks.
-  <!-- * Supervisor: Laurent BindSchaedler -->
-
-* Summer 2023: Openlab summer Intern- **CERN Geneva, Switzerland**
-  * As part of this project, I conducted a accessibility study on CERN’s Single Sign-On (SSO) system, used by thousands of users daily to access internal services.
-  * Implementing targeted improvements to remove accessibility blockages, ensuring the login process met usability standards for all users.
-    * **Skills and technologies used**: Python, React, Spring, GitLab, human-centered design, accessibility testing, assistive technologies.
-  <!-- * Supervisor: Hannah Short and Maria Fava -->
-
-<!-- ## Awards & Honors -->
-<!-- - Dec. 2023: Tsinghua University “129” Scholarship
-- May. 2023: Siebel Scholars Scholarship 
-<!-- - Oct. 2022: Comprehensive First-Class Scholarship of Tsinghua University -->
-<!-- - Apr. 2021: Outstanding Graduate of Shaanxi Province -->
-<!-- - Dec. 2020: President's Scholarship of Xidian University (top 0.03%)
-- Dec. 2020: National Scholarship --> 
-<!-- - Dec. 2019: Governement Scholarship -->
-<!-- - Dec. 2019: Bronze Medal of the ACM/ICPC Programming Contest -->
-<!-- - Apr. 2020: Honorable Mention Award of the American Mathematical Contest in Modeling -->
-
-
-<!-- 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
-
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
-
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
+## Featured Projects & Labs
+* [**Offline On-Device ASR for Impaired Speech (CDLI / CMU-Africa)**](/projects/cdli-assistive-asr): Fine-tuning Whisper and Zipformer models for Kinyarwanda and English non-standard speech, 4-bit quantization, and cross-platform Flutter assistive communication app.
+* [**Production Movie Recommendation Streaming Platform**](/projects/mlip-recommender): Scalable streaming recommendation engine serving 1M users / 20k movies with Kafka, ALS Matrix Factorization, Flask microservices, Prometheus/Grafana monitoring, and automated retraining.
+* [**Autonomous Multi-Source Financial RAG Agent**](/projects/agentic-rag-centum): Enterprise financial reasoning agent integrating ChromaDB semantic search with deterministic SQL execution for multi-document financial reporting.
+* [**Hardened Tool-Calling Agent with Model Context Protocol (MCP)**](/projects/mcp-agent-security): Security analysis, adversarial injection testing, and defensive guardrail engineering for tool-augmented AI agents.
+* [**Longitudinal Benchmark for Learned Indexes**](/projects/learnedindex): High-concurrency C++ benchmarking suite evaluating learned data structures under dynamic operational workloads.
