@@ -4,7 +4,7 @@ collection: teaching
 type: "Leadership & Community"
 permalink: /teaching/book-club-president
 venue: "CMU-Africa"
-date: 2024-01-01
+date: 2025-01-01
 location: "Kigali, Rwanda"
 ---
 
