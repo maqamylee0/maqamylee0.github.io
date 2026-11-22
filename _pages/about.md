@@ -13,7 +13,7 @@ I am a **Machine Learning Engineer & AI Systems Engineer** and Master's candidat
 My engineering and research focus centers on building and operating **resilient, observable production machine learning systems (MLOps)**, **autonomous agentic AI architectures**, and **high-throughput distributed streaming pipelines**. I am particularly interested in the intersection of intelligent systems, systems-level efficiency, and data infrastructure—bridging the gap between empirical ML algorithms and reliable, real-world deployment.
 
 <div style="background:#eef4fb; border-left:4px solid #2c5f8a; padding:10px 14px; margin:16px 0; border-radius:3px; font-size:0.97em;">
-🎓 <strong>I am currently open to PhD opportunities</strong> in machine learning, AI systems, and their applications to accessibility and climate. I am also open to <strong>ML engineering roles starting early 2027</strong>. Feel free to reach out at <a href="mailto:emmillynamugaga@gmail.com">emmillynamugaga@gmail.com</a>.
+🎓 <strong>I am currently open to PhD opportunities</strong> in machine learning, ML systems, AI for accessibility, and climate-aware AI. I am also open to <strong>ML engineering roles starting early 2027</strong>. Feel free to reach out at <a href="mailto:emmillynamugaga@gmail.com">emmillynamugaga@gmail.com</a>.
 </div>
 
 ## Education
