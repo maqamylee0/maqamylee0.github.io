@@ -14,7 +14,7 @@ Machine Learning & AI Systems Engineer with a deep focus on **Production ML (MLO
 
 Education
 ======
-* **M.S. in Information Technology / Artificial Intelligence**, Carnegie Mellon University (CMU-Africa), College of Engineering, *Aug. 2024 – May 2026*
+* **M.S. in Information Technology / Artificial Intelligence**, Carnegie Mellon University (CMU-Africa), College of Engineering, *Aug. 2025 – Dec. 2026 (graduating May 2027)*
   * *Core Coursework*: Machine Learning in Production (17-645), Agentic AI Systems, Deep Learning, Principles of Software Construction, Data Analytics.
 * **B.S. in Computer Science**, Makerere University, *Sep. 2019 – Feb. 2023*
   * Graduated top of class.
