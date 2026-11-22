@@ -11,6 +11,11 @@ location: "Kigali, Rwanda"
 
 I am participating in a hackathon hosted by the **Centre for Digital Language Inclusion (CDLI)**, building **Speech Assist**—an end-to-end assistive communication platform engineered for individuals with speech and motor impairments in Rwanda.
 
+<figure style="float:right; margin: 0 0 1em 1.5em; max-width: 340px;">
+  <img src="/images/cdli-team-meetup.jpg" alt="CDLI design team meetup at the University of Rwanda Physiotherapy and Occupational Therapy Laboratory" style="width:100%; border-radius:6px;">
+  <figcaption style="font-size:0.85em; color:#555; margin-top:6px; text-align:center;">Our design team at a meetup with two participants living with speech impairments, University of Rwanda.</figcaption>
+</figure>
+
 ### Real-World Problem & Context
 People living with speech impairments—including individuals with cerebral palsy, Parkinson's disease, multiple sclerosis, stroke-induced dysarthria, and stuttering—frequently face severe barriers when communicating with strangers, healthcare workers, teachers, and vendors. 
 
