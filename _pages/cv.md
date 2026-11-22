@@ -24,6 +24,7 @@ Technical Skills
 * **MLOps & Production Engineering**: Docker, Docker Compose, DVC (Data Version Control), MLflow, CI/CD (GitHub Actions, Self-hosted Runners), Weights & Biases (W&B), Apache Kafka, Prometheus, Grafana, Node Exporter, Zero-Downtime Deployment, A/B Testing, Model Drift Detection.
 * **Agentic AI & LLMs**: Model Context Protocol (MCP), Autonomous Tool-Calling Agents, Agent Harnesses, LangChain, LlamaIndex, Retrieval-Augmented Generation (RAG), Arize Phoenix (Agent Tracing & Observability), Groq / OpenAI / Anthropic APIs, Prompt Engineering, Agent Security & Guardrails, LLM-as-a-Judge.
 * **Machine Learning & Deep Learning**: PyTorch, Scikit-learn, Collaborative Filtering (ALS, SVD), Content-Based Recommendation, Model Slicing & Continuous Testing, Explainable AI (SHAP, Alibi Explain), Property-Based Testing (Hypothesis).
+* **Geospatial & Climate Data**: xarray, NetCDF, rioxarray, cartopy, NASA POWER API (MERRA-2), coordinate systems (EPSG:4326), raster reprojection, spatial aggregation, pvlib, time-series forecasting (Prophet, Theil-Sen), urban heat analysis.
 * **Data & Storage**: Apache Kafka, Pandas, NumPy, SQLite, ChromaDB (Vector Search), Data Pipelines & Schema Enforcement.
 * **Software Engineering & Languages**: Python, C++, TypeScript/JavaScript, Bash, REST APIs, WSGI/Flask/FastAPI, Linux Systems Programming, Git/GitHub.
 

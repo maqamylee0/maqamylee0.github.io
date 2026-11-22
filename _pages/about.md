@@ -25,6 +25,7 @@ My engineering and research focus centers on building and operating **resilient,
 * **Production ML & MLOps**: Operating end-to-end ML lifecycles with continuous streaming ingestion (Apache Kafka), reproducible data/model pipelines (DVC, MLflow), containerized microservices (Docker Compose), property-based testing (Hypothesis), slice validation, and real-time observability dashboards (Prometheus, Grafana).
 * **Agentic AI & LLM Systems**: Architecting tool-calling AI agents with the Model Context Protocol (MCP), designing robust multi-source Retrieval-Augmented Generation (RAG) engines, building agent harnesses with browser tooling (Playwright), and instrumenting distributed trace observability and evaluation (Arize Phoenix, LLM-as-a-Judge).
 * **AI Safety, Security & Explainability**: Hardening AI agents against prompt injection and tool poisoning, conducting STPA-based systemic hazard analyses, and auditing complex models using Explainable AI (SHAP, Alibi Explain).
+* **Geospatial & Climate Data**: Working with NetCDF and raster datasets (xarray, rioxarray, cartopy), NASA POWER / MERRA-2 climate data, coordinate systems and raster reprojection, spatial heat analysis, and time-series forecasting (Prophet, Theil-Sen trend analysis).
 * **Learned Systems & Data Infrastructure**: Designing longitudinal benchmarking frameworks and concurrent C++ testbeds for learned index structures and accelerated inference.
 
 ## Research & Professional Experience
