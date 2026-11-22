@@ -4,8 +4,6 @@ collection: projects
 type: "projects"
 layout: single
 permalink: /projects/cdli-assistive-asr
-venue: "CDLI Hackathon — Centre for Digital Language Inclusion"
-date: 2026-07-01
 location: "Kigali, Rwanda"
 ---
 
