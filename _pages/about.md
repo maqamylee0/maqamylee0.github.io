@@ -17,7 +17,7 @@ My engineering and research focus centers on building and operating **resilient,
 </div>
 
 ## Education
-* **M.S. in Information Technology / Artificial Intelligence**, Carnegie Mellon University (CMU-Africa)  
+* **M.S. in Engineering Artificial Intelligence**, Carnegie Mellon University (CMU-Africa)  
   *August 2025 – December 2026 (graduating May 2027)* \| Kigali, Rwanda
   * Core focus: Machine Learning in Production, Agentic AI Systems, Deep Learning, Software Architecture, Data Analytics.
 * **B.S. in Computer Science**, Makerere University  
