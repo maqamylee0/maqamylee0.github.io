@@ -101,10 +101,10 @@
   "Kigali, Rwanda",
   "July 2025 – Present"
 )
-- Spearhead speech ML and edge deployment for *Speech Assist*—an offline assistive ASR communication platform in Rwanda.
-- Fine-tuned bilingual ASR models (Whisper-small, Whisper Large-v3, Zipformer, Omnilingual CTC-300M) on CDLI non-standard speech datasets (61.7h Kinyarwanda, 44.4h Rwandan English), establishing a state-of-the-art *0.374 WER* on impaired Kinyarwanda.
-- Quantized fine-tuned Whisper checkpoints to 4-bit precision with *whisper.cpp / GGML*, reducing size to *145 MB* with on-device latency of ~9s per 19s audio on mobile phones without internet connectivity or cloud APIs.
-- Built a cross-platform *Flutter* assistive communication app featuring Kinyarwanda language model spelling correction and text-to-speech audio playback; developed cloud scoring portal evaluating 12 candidate acoustic models.
+- Built the frontend of Accessibility Corner, a trilingual job site for people with disabilities in Rwanda, to a WCAG 2.2 AAA bar.
+- Fine-tuned Llama-3.2-1B for Ongera’s VNeST app so it writes English aphasia exercises fully offline on Android (held-out exercises from 0% to 100% valid); Kinyarwanda exercises still need therapist-written data.
+- Fine-tuned the on-device Kinyarwanda voice (kinya-flex-tts) so isolated words stay intelligible, after showing the public model rushes them because its training set has almost no single-word speech.
+- Fine-tuned real-time ASR for impaired Kinyarwanda and English in the CDLI hackathon, shipping 27 MB streaming models that transcribe while the person is still speaking (about 0.38 word error rate in each language).
 
 #v(0.18em)
 #role(
