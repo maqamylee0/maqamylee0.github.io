@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-I am a Master's student in Engineering Artificial Intelligence at **Carnegie Mellon University (CMU-Africa)**. The work below is what I have done so far, across computer systems and machine learning. I am not set on one of those fields.
+I am a Master's student in Engineering Artificial Intelligence at **Carnegie Mellon University (CMU-Africa)**. The work below is what I have done so far, in computer systems and in machine learning.
 
 <div style="background:#eef4fb; border-left:4px solid #2c5f8a; padding:10px 14px; margin:16px 0; border-radius:3px; font-size:0.97em;">
 🎓 <strong>I am open to PhD and research roles starting in 2027</strong> in computer systems and in machine learning. Feel free to reach out at <a href="mailto:emmillynamugaga@gmail.com">emmillynamugaga@gmail.com</a>.
