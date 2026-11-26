@@ -154,10 +154,10 @@ Work Experience
 * **July 2025 – Present: Graduate AI Research Assistant**
   * *Digital Accessibility Lab, Carnegie Mellon University (CMU-Africa), Rwanda*
   * Built the frontend of Accessibility Corner, a trilingual job site for people with disabilities in Rwanda, to a WCAG 2.2 AAA bar (keyboard, screen reader, 44px targets, 7:1 contrast).
-  * Fine-tuned Llama-3.2-1B for Ongera’s VNeST app so it writes English aphasia exercises fully offline on Android, lifting held-out exercises from 0% to 100% valid; Kinyarwanda exercises still need therapist-written data.
-  * Fine-tuned the on-device Kinyarwanda voice (kinya-flex-tts) so isolated words stay intelligible, after showing the public model rushes them because its training set has almost no single-word speech.
+  * Fine-tuning on-device language models that write speech-therapy exercises for an assistive app, in English, with a Kinyarwanda version in progress.
+  * Fine-tuning an on-device Kinyarwanda text-to-speech voice so short utterances stay intelligible.
   * Fine-tuned real-time ASR for impaired Kinyarwanda and English in the CDLI hackathon, shipping 27 MB streaming models that transcribe while the person is still speaking (about 0.38 word error rate in each language).
-  * *Technologies*: PyTorch, Whisper, GGML, whisper.cpp, Sherpa-ONNX, Llama, Next.js, Python, Flutter, Dart, Assistive AI.
+  * *Technologies*: PyTorch, Whisper, GGML, whisper.cpp, Sherpa-ONNX, Next.js, Python, Flutter, Dart, Assistive AI.
 
 * **Summer 2025: Research Intern**
   * *Max Planck Institute for Software Systems (MPI-SWS), Germany*
