@@ -103,7 +103,7 @@
 )
 - Building the frontend of a multilingual job site for people with disabilities, held to a strict accessibility standard.
 - Fine-tuning on-device language models that write speech-therapy exercises for an assistive app, in English, with a Kinyarwanda version in progress.
-- Fine-tuning an on-device Kinyarwanda text-to-speech voice so short utterances stay intelligible.
+- Showed that a public on-device Kinyarwanda voice (kinya-flex-tts) rushes short speech, with one- and two-word clips at 0.88× the speaker's duration because training has almost no isolated words, and fine-tuned it so character error on bare test words falls from 0.67 to 0.17.
 - Fine-tuned real-time ASR for impaired Kinyarwanda and English in the CDLI hackathon, shipping 27 MB streaming models that transcribe while the person is still speaking (about 0.38 word error rate in each language).
 
 #v(0.18em)
