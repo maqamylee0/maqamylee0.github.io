@@ -34,7 +34,7 @@ My engineering and research focus centers on building and operating **resilient,
 
 ## Research & Professional Experience
 * **July 2025 – Present: Graduate AI Research Assistant — Digital Accessibility Lab, CMU-Africa**
-  * Built the frontend of Accessibility Corner, a trilingual job site for people with disabilities in Rwanda, to a WCAG 2.2 AAA bar (keyboard, screen reader, 44px targets, 7:1 contrast).
+  * Building the frontend of a multilingual job site for people with disabilities, held to a strict accessibility standard.
   * Fine-tuning on-device language models that write speech-therapy exercises for an assistive app, in English, with a Kinyarwanda version in progress.
   * Fine-tuning an on-device Kinyarwanda text-to-speech voice so short utterances stay intelligible.
   * Fine-tuned real-time ASR for impaired Kinyarwanda and English in the CDLI hackathon, shipping 27 MB streaming models that transcribe while the person is still speaking (about 0.38 word error rate in each language).
