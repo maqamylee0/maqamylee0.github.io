@@ -109,13 +109,13 @@
 - Audited CERN's Single Sign-On system and shipped front-end and back-end fixes for accessibility under production constraints.
 
 #section("Selected projects")
+#text(weight: "bold", fill: dark)[Longitudinal benchmark for learned indexes] · #text(style: "italic", fill: secondary)[MPI-SWS]
+- The C++ testbed in the internship above: 13 learned-index designs, more than 4,000 runs, and the waves-of-misery result on 400 million keys. #link("https://arxiv.org/abs/2610.33770")[arXiv:2610.33770]. #link("https://maqamylee0.github.io/projects/learnedindex")[Project page].
+
+#v(0.14em)
 #text(weight: "bold", fill: dark)[Agent execution checks] · #text(style: "italic", fill: secondary)[course, Agentic AI Systems]
 - Tested a tool-calling agent (Tau2-bench, Model Context Protocol) against indirect prompt injection, tool poisoning, and privilege escalation.
 - Added JSON-schema checks on tool arguments, an execution sandbox, and checks that the agent's state matched the allowed outcome.
-
-#v(0.14em)
-#text(weight: "bold", fill: dark)[Streaming recommendation service] · #text(style: "italic", fill: secondary)[course, Machine Learning in Production]
-- Operated a recommendation service over Apache Kafka for a 1,000,000-user, 20,000-title catalog, with retraining, A/B routing, and Prometheus/Grafana.
 
 #section("Publications")
 - *Synchronized Rebuilds: The Hidden Cost of Concurrent Inserts in Learned Indexes ("Waves of Misery").* #text(weight: "bold")[Emmilly Immaculate Namuganga], Laurent Bindschaedler. #link("https://arxiv.org/abs/2610.33770")[arXiv:2610.33770], Oct. 2026.

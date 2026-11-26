@@ -129,6 +129,11 @@
 #pagebreak(weak: true)
 #section("Production ML & AI Systems Projects")
 
+#text(weight: "bold", fill: dark)[Longitudinal Benchmark for Learned Indexes] · #text(style: "italic", fill: secondary)[MPI-SWS]
+- Built a C++ benchmark that runs 13 learned-index designs over time under concurrent inserts, deletions, and queries (more than 4,000 runs).
+- Found synchronized node rebuilds that stall inserts and silently drop keys on 400 million keys. Lead author, #link("https://arxiv.org/abs/2610.33770")[arXiv:2610.33770].
+
+#v(0.15em)
 #text(weight: "bold", fill: dark)[Production Movie Recommendation Streaming Platform] · #text(style: "italic", fill: secondary)[CMU MLIP (17-645) Capstone]
 - Built, deployed, and operated an end-to-end movie recommendation microservice serving *1,000,000 users* across *20,000 titles*.
 - Ingested millions of real-time interaction logs from Apache Kafka; trained ALS Matrix Factorization and Content-Based models with an LLM-assisted cold-start keyword pipeline.

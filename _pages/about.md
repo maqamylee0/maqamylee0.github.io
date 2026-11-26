@@ -24,7 +24,7 @@ I am a Master's student in Engineering Artificial Intelligence at **Carnegie Mel
 
 ## What I Have Done
 
-* **Concurrent data systems**: At the Max Planck Institute for Software Systems, built a C++ benchmarking testbed for learned indexes and measured how concurrent inserts fail under multi-threaded workloads.
+* **Longitudinal benchmark for learned indexes**: At the Max Planck Institute for Software Systems, built a C++ benchmark that runs learned indexes over time under concurrent inserts, deletions, and queries. The runs found synchronized rebuilds that stall inserts and drop keys (lead author, [arXiv:2610.33770](https://arxiv.org/abs/2610.33770)).
 * **On-device models**: At the Digital Accessibility Lab, CMU-Africa, fine-tuned speech and language models that run on a phone, including a Kinyarwanda voice and real-time recognition of impaired speech.
 * **Production ML**: Course projects that ingest streams with Apache Kafka, train and serve models in Docker, and watch them with Prometheus and Grafana.
 * **Agents**: Course projects on tool-calling agents, including execution checks, retrieval over documents, and trace-based evaluation.
