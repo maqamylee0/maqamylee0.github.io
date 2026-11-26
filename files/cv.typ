@@ -44,7 +44,7 @@
 #align(center)[
   #text(weight: "bold", size: 18pt, fill: primary)[Emmilly Immaculate Namuganga] \
   #v(0.12em)
-  #text(weight: "medium", size: 10.5pt, fill: accent)[Machine Learning & AI Systems Engineer · Speech & Edge AI Researcher] \
+  #text(weight: "medium", size: 10.5pt, fill: accent)[Computer Systems and Machine Learning] \
   #v(0.2em)
   #text(size: 8.8pt, fill: secondary)[
     Kigali, Rwanda · Entebbe, Uganda | 
@@ -58,7 +58,7 @@
 
 // Profile
 #text(size: 9.3pt)[
-  *Master’s student in Engineering AI at Carnegie Mellon University (CMU-Africa)* with research experience in machine learning for systems, and in fine-tuning and quantizing ASR models for low-resource languages for on-device deployment, plus hands-on coursework in production ML (MLOps) and agentic LLM systems. Built course projects with Apache Kafka, Docker, MLflow/DVC, Prometheus/Grafana, MCP, and RAG.
+  *Master’s student in Engineering AI at Carnegie Mellon University (CMU-Africa)*, graduating May 2027. Research so far spans concurrent learned indexes at the Max Planck Institute for Software Systems (lead author, arXiv:2610.33770) and on-device models in the Digital Accessibility Lab, plus coursework in production ML and agentic systems.
 ]
 
 // Education

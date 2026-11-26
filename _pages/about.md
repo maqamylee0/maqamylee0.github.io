@@ -8,12 +8,10 @@ redirect_from:
 ---
 
 
-I am a **Machine Learning Engineer & AI Systems Engineer** and Master's candidate at **Carnegie Mellon University (CMU-Africa)**, College of Engineering. Currently, I work as a Graduate AI Researcher at the **Digital Accessibility Lab at CMU-Africa**, where I build and deploy offline, on-device AI speech solutions for people with speech and motor disabilities in Rwanda.
-
-My engineering and research focus centers on building and operating **resilient, observable production machine learning systems (MLOps)**, **autonomous agentic AI architectures**, and **high-throughput distributed streaming pipelines**. I am particularly interested in the intersection of intelligent systems, systems-level efficiency, and data infrastructure—bridging the gap between empirical ML algorithms and reliable, real-world deployment.
+I am a Master's student in Engineering Artificial Intelligence at **Carnegie Mellon University (CMU-Africa)**. The work below is what I have done so far, across computer systems and machine learning. I am not set on one of those fields.
 
 <div style="background:#eef4fb; border-left:4px solid #2c5f8a; padding:10px 14px; margin:16px 0; border-radius:3px; font-size:0.97em;">
-🎓 <strong>I am currently open to PhD opportunities</strong> in machine learning, ML systems, AI for accessibility, and climate-aware AI. I am also open to <strong>ML engineering roles starting early 2027</strong>. Feel free to reach out at <a href="mailto:emmillynamugaga@gmail.com">emmillynamugaga@gmail.com</a>.
+🎓 <strong>I am open to PhD and research roles starting in 2027</strong> in computer systems and in machine learning. Feel free to reach out at <a href="mailto:emmillynamugaga@gmail.com">emmillynamugaga@gmail.com</a>.
 </div>
 
 ## Education
@@ -24,13 +22,13 @@ My engineering and research focus centers on building and operating **resilient,
   *September 2019 – February 2023* \| Kampala, Uganda  
   * Graduated top of class.
 
-## What I Build & Research
+## What I Have Done
 
-* **Production ML & MLOps**: Operating end-to-end ML lifecycles with continuous streaming ingestion (Apache Kafka), reproducible data/model pipelines (DVC, MLflow), containerized microservices (Docker Compose), property-based testing (Hypothesis), slice validation, and real-time observability dashboards (Prometheus, Grafana).
-* **Agentic AI & LLM Systems**: Architecting tool-calling AI agents with the Model Context Protocol (MCP), designing robust multi-source Retrieval-Augmented Generation (RAG) engines, building agent harnesses with browser tooling (Playwright), and instrumenting distributed trace observability and evaluation (Arize Phoenix, LLM-as-a-Judge).
-* **AI Safety, Security & Explainability**: Hardening AI agents against prompt injection and tool poisoning, conducting STPA-based systemic hazard analyses, and auditing complex models using Explainable AI (SHAP, Alibi Explain).
-* **Geospatial & Climate Data**: Working with NetCDF and raster datasets (xarray, rioxarray, cartopy), NASA POWER / MERRA-2 climate data, coordinate systems and raster reprojection, spatial heat analysis, and time-series forecasting (Prophet, Theil-Sen trend analysis).
-* **Learned Systems & Data Infrastructure**: Designing longitudinal benchmarking frameworks and concurrent C++ testbeds for learned index structures and accelerated inference.
+* **Concurrent data systems**: At the Max Planck Institute for Software Systems, built a C++ benchmarking testbed for learned indexes and measured how concurrent inserts fail under multi-threaded workloads.
+* **On-device models**: At the Digital Accessibility Lab, CMU-Africa, fine-tuned speech and language models that run on a phone, including a Kinyarwanda voice and real-time recognition of impaired speech.
+* **Production ML**: Course projects that ingest streams with Apache Kafka, train and serve models in Docker, and watch them with Prometheus and Grafana.
+* **Agents**: Course projects on tool-calling agents, including execution checks, retrieval over documents, and trace-based evaluation.
+* **Climate data**: Coursework with NetCDF and raster climate data (xarray, NASA POWER / MERRA-2) and time-series forecasting.
 
 ## Research & Professional Experience
 * **July 2025 – Present: Graduate AI Research Assistant — Digital Accessibility Lab, CMU-Africa**
@@ -70,8 +68,8 @@ My engineering and research focus centers on building and operating **resilient,
   *arXiv:2606.02375*, Jun. 2026. [[arXiv](https://arxiv.org/abs/2606.02375)]
 
 ## Featured Projects & Labs
-* [**Offline On-Device ASR for Impaired Speech (CDLI / CMU-Africa)**](/projects/cdli-assistive-asr): Fine-tuning Whisper and Zipformer models for Kinyarwanda and English non-standard speech, 4-bit quantization, and cross-platform Flutter assistive communication app.
-* [**Production Movie Recommendation Streaming Platform**](/projects/mlip-recommender): Scalable streaming recommendation engine serving 1M users / 20k movies with Kafka, ALS Matrix Factorization, Flask microservices, Prometheus/Grafana monitoring, and automated retraining.
-* [**Autonomous Multi-Source Financial RAG Agent**](/projects/agentic-rag-centum): Enterprise financial reasoning agent integrating ChromaDB semantic search with deterministic SQL execution for multi-document financial reporting.
-* [**Hardened Tool-Calling Agent with Model Context Protocol (MCP)**](/projects/mcp-agent-security): Security analysis, adversarial injection testing, and defensive guardrail engineering for tool-augmented AI agents.
-* [**Longitudinal Benchmark for Learned Indexes**](/projects/learnedindex): High-concurrency C++ benchmarking suite evaluating learned data structures under dynamic operational workloads.
+* [**Longitudinal Benchmark for Learned Indexes**](/projects/learnedindex): C++ benchmarking suite for learned indexes under concurrent inserts, deletions, and queries.
+* [**Offline On-Device ASR for Impaired Speech (CDLI / CMU-Africa)**](/projects/cdli-assistive-asr): Fine-tuning recognition models for Kinyarwanda and English non-standard speech, quantization, and an offline phone app.
+* [**Production Movie Recommendation Streaming Platform**](/projects/mlip-recommender): Streaming recommendation service over Kafka, with retraining, monitoring, and a serving API.
+* [**Hardened Tool-Calling Agent with Model Context Protocol (MCP)**](/projects/mcp-agent-security): Checks on a tool-calling agent, including injection tests and an execution sandbox.
+* [**Autonomous Multi-Source Financial RAG Agent**](/projects/agentic-rag-centum): An agent that answers from financial documents using both vector search and SQL.
